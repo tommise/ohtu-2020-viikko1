@@ -40,3 +40,12 @@ jar {
     }
 }
 
+// For Codecov.io
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
