@@ -104,7 +104,7 @@ public class VarastoTest {
     public void negatiivinenLisäysEiVaikutaSaldoon() {
         varasto.lisaaVarastoon(-10);
         
-        assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
